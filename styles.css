@@ -1,0 +1,65 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img{
+    max-width: 600px;
+}
+.mytitre{
+    margin: 0 auto;
+    height: 100px!important;
+}
+.caption{
+   background-color: rgb(232, 239, 241);
+   margin-top: 100px;
+   margin: 5px;
+}
+    .caption p, .caption img{
+    margin: 0 auto;
+    }
+.fixed-top{
+ justify-content: space-between;
+}
+.navbar{
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    color:#fff;
+}
+.myTitre{
+ display: flex;
+ flex-direction: row;
+ margin-left: 30px
+}
+    .myTitre svg{
+        margin-top: 10px;
+    }
+.card{
+box-shadow: 1px 1px 1px  #000;
+display: flex;;
+margin: 15px;
+}
+    .card-img-top{
+        min-height: 165px;
+    }
+    .card-body h5{
+    text-align: center;
+    }
+    .card-body img{
+    padding: 20px;
+    }
+    .card-body a{
+    margin-left: 50px;
+    }
+section{
+  margin-top: 150px;
+}
+    section .hello{
+    margin:0 auto;
+    margin-bottom: 100px;
+    text-align: center;
+    }
+footer svg{
+    color:#000;
+}
+footer a{
+    color:#000!important;
+}
